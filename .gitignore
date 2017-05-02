@@ -1,8 +1,5 @@
 /typings
 /dist
-src/**/*.js.map
-src/**/*.d.ts
-src/**/*.js
 runtime/*.js
 index.js.map
 index.d.ts

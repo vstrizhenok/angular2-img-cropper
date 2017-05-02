@@ -114,7 +114,6 @@
     "clean": "rimraf dist",
     "compile": "npm run compile:ts",
     "compile:ts": "tsc",
-    "copy:release": "node tools/package.json-cleanup.js && copyfiles README.md LICENSE.md dist src",
     "lite": "lite-server",
     "postversion": "git push --tags && git checkout master && git branch -D release && git push && npm publish",
     "preversion": "npm test && npm run build",
