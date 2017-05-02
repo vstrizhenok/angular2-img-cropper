@@ -7,8 +7,6 @@ Thumbs.db
 .DS_Store
 .idea
 *.tgz
-/**/*.ts
-!/**/*.d.ts
 runtime
 /system.config.js
 /typings.json
